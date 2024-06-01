@@ -74,7 +74,9 @@
 
 - `y` - copy the selected text
 - `yy` - copy the line
-- `yaw` - copy the word
+- `yaw|yiw` - copy the word with trailing/leading whitespace
+- `yiw` - copy the word without trailing/leading whitespace
+- `y$` - copy the text from the cursor to the end of the line
 - `p` - paste the copied text (after the cursor or line)
 - `P` - paste the copied text (before the cursor or line)
 - `d` - delete the selected text

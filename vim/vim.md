@@ -3,7 +3,7 @@
 ## Modes
 
 - Normal mode
-- Insert mode [here](shortcuts.md#insert)
+- Insert [here](shortcuts.md#insert)
 - Visual mode [here](./shortcuts.md#visual-mode)
 - command-line mode
 - Select mode
