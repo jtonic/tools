@@ -42,12 +42,7 @@
 
     - `x` - delete the character under the cursor
     - `dd` - delete the line
-
-### Copy
-
-    - `yy` - copy the line
-    - `p` - paste the copied line
-
+    - `ggVGd` - delete the entire buffer
 
 ## Buffer operations
 
@@ -62,18 +57,20 @@
 - `n` - move to the next match
 - `N` - move to the previous match
 - `*` - search for the word under the cursor
-- `#` - search for the word under the cursor in the opposite direction
+- `#` - search for the word under the cursor in the opposite direction/
 
 ## Visual mode
 
 - `v` - start visual mode
 - `V` - start visual line mode
 - `viw` - select the current word - viw
+- `ggVG | :%y+` - select the entire buffer
 
 ## Copy and paste
 
 - `y` - copy the selected text
 - `yy` - copy the line
+- `ggVGy` - copy the entire buffer
 - `yaw|yiw` - copy the word with trailing/leading whitespace
 - `yiw` - copy the word without trailing/leading whitespace
 - `y$` - copy the text from the cursor to the end of the line

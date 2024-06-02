@@ -3,9 +3,9 @@
 ## Modes
 
 - Normal mode
-- Insert [here](shortcuts.md#insert)
+- Insert mode [here](shortcuts.md#insert)
 - Visual mode [here](./shortcuts.md#visual-mode)
-- command-line mode
-- Select mode
+- Command-line mode (`:`)
+- Select mode (`v`, `V`) - [here](./shortcuts.md#visual-mode)
 - Operator-pending mode
-- Replace mode
+- Replace mode (`R`)
