@@ -42,7 +42,7 @@
 
     - `x` - delete the character under the cursor
     - `dd` - delete the line
-    - `ggVGd` - delete the entire buffer
+    - `ggVGd | :%d` - delete the entire buffer
 
 ## Buffer operations
 
@@ -76,7 +76,4 @@
 - `y$` - copy the text from the cursor to the end of the line
 - `p` - paste the copied text (after the cursor or line)
 - `P` - paste the copied text (before the cursor or line)
-- `d` - delete the selected text
-- `x` - delete the selected text
-- `c` - delete the selected text and enter insert mode
 - `r` - replace the selected text
