@@ -40,9 +40,19 @@
 
 ### Delete
 
-    - `x` - delete the character under the cursor
-    - `dd` - delete the line
-    - `ggVGd | :%d` - delete the entire buffer
+- `x` - delete the character under the cursor
+- `dd` - delete the line
+- `ggVGd | :%d` - delete the entire buffer
+
+### Delete without yanking
+
+- `"_<delete_pattern>`:
+  - `w` - delete the word
+  - `$` - delete the text from the cursor to the end of the line
+  - `0` - delete the text from the cursor to the beginning of the line
+  - `aw` - delete the word with trailing/leading whitespace
+  - `iw` - delete the word without trailing/leading whitespace
+  - `dd` - delete the line
 
 ## Buffer operations
 
@@ -53,11 +63,20 @@
 
 ## Searching
 
-- `/` - search for a pattern
+- `/<pattern>` - search for a pattern
+- `?<pattern>` - search backwaeds
 - `n` - move to the next match
 - `N` - move to the previous match
 - `*` - search for the word under the cursor
 - `#` - search for the word under the cursor in the opposite direction/
+
+## Replacing
+
+- `:%s/<patter>/<replacement>/gc` - replace in the entire file, with confirmation
+- `:%s/<patter>//gc` - delete in the entire file, with confirmation
+- `:%s/<pattern>/<replacement>/gi` - replace in the entire file case insensitive
+**Notes**:
+  If %s is relaced with s in the command above the search and replace take place in the current line.
 
 ## Visual mode
 
