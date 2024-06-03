@@ -77,3 +77,17 @@
 - `p` - paste the copied text (after the cursor or line)
 - `P` - paste the copied text (before the cursor or line)
 - `r` - replace the selected text
+
+### Copy to system clipboard
+
+- `"+y` - copy the selected text to the system clipboard
+- `"+yy` - copy the line to the system clipboard
+- `"+yiw` - copy the word to the system clipboard
+- `"+y$` - copy the text from the cursor to the end of the line to the system clipboard
+- `"+p` - paste the copied text from the system clipboard (after the cursor or line)
+- `"+P` - paste the copied text from the system clipboard (before the cursor or line)
+- `"+r` - replace the selected text with the text from the system clipboard
+
+**Note:**
+    - To check if clipboard is enabled in vim, run `vim --version | grep clipboard`.
+    If it returns `-clipboard`, then you need to install a version of vim that has clipboard support.
