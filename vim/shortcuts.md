@@ -15,6 +15,14 @@
 - `.` - repeat the last command
 - `u` - undo
 
+## Buffers
+
+- `q` - close current buffer
+- `q!` - close current dirty buffer w/o saving
+- `qa` - close all buffers (close vim/neovim)
+- `w` - save current dirty buffer
+- `wq` - save and close current dirty buffer
+
 ## Navigation
 
 - `h` - move left
