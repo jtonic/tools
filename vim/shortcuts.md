@@ -11,17 +11,21 @@
 
 ## General operations
 
-- `Ctrl + r` - redo
-- `.` - repeat the last command
-- `u` - undo
+- `Ctrl + r` (n) redo
+- `.`        (n) repeat the last command
+- `u`        (n) undo
 
 ## Buffers
 
-- `q` - close current buffer
-- `q!` - close current dirty buffer w/o saving
-- `qa` - close all buffers (close vim/neovim)
-- `w` - save current dirty buffer
-- `wq` - save and close current dirty buffer
+- `q`  (n) close current buffer
+- `q!` (n) close current dirty buffer w/o saving
+- `qa` (n) close all buffers (close vim/neovim)
+- `w`  (n) save current dirty buffer
+- `wq` (n) save and close current dirty buffer
+
+## Files
+
+- `e filename` (n) Create a new file in the current directory or near the currently open file
 
 ## Navigation
 
