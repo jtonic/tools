@@ -107,6 +107,12 @@
 - `"+P` - paste the copied text from the system clipboard (before the cursor or line)
 - `"+r` - replace the selected text with the text from the system clipboard
 
+## Code
+
+- `gcc` toggle comment for the entire current line
+- `gco` toggle comment on the line below
+- `gcO` toggle comment on the line above
+
 **Note:**
     - To check if clipboard is enabled in vim, run `vim --version | grep clipboard`.
     If it returns `-clipboard`, then you need to install a version of vim that has clipboard support.
