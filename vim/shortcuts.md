@@ -135,6 +135,11 @@
 - `gcO` (n) toggle comment on the line above
 - `gc`  (x) toggle comment on selected text block
 
+## Next shortcuts to figure out
+- move a line up and down
+- move a block of text up and down
+
+
 **Note:**
     - To check if clipboard is enabled in vim, run `vim --version | grep clipboard`.
     
