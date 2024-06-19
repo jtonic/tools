@@ -140,6 +140,14 @@
 - move a block of text up and down
 
 
+## Sneak plugin
+
+-  `s{char}{char}` (n) - search for {char}{char} with highlight. E.g. sab search for ab
+  - `;` next occurence
+  - `,` previous occurence
+-    
+-  ; 
+
 **Note:**
     - To check if clipboard is enabled in vim, run `vim --version | grep clipboard`.
     
