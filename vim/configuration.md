@@ -114,3 +114,72 @@ to the file `~/.config/nvim/lua/config/keymaps.lua`
   "vim.vimrc.enable": true,
   "vim.vimrc.path": "$HOME/.vscodevimrc",
 ```
+
+## Configuration to duplicate current or selected lines
+
+- vim (vs code and idea
+
+```vim
+" Duplicate the current line below
+nnoremap <C-S-j> :t.<CR>==
+
+" Duplicate the current line above
+nnoremap <C-S-k> :t-1<CR>==
+
+" Duplicate selected lines below
+vnoremap <C-S-j> :t'><CR>gv=gv
+
+" Duplicate selected lines above
+vnoremap <C-S-k> :t'<-1<CR>gv=gv
+```
+
+- neovim 
+
+```lua
+-- Duplicate the current line below
+keymap("n", "<C-S-j>", ":t.<CR>", { noremap = true, silent = true })
+
+-- Duplicate the current line above
+keymap("n", "<C-S-k>", ":t-1<CR>", { noremap = true, silent = true })
+
+-- Duplicate selected lines below
+keymap("v", "<C-S-j>", ":t'><CR>gv=gv", { noremap = true, silent = true })
+
+-- Duplicate selected lines above
+keymap("v", "<C-S-k>", ":t'<-1<CR>gv=gv", { noremap = true, silent = true })
+```
+
+## Configuration to move current or selected lines
+
+- vim (vs code and idea)
+
+```vim
+" Move the current line up
+nnoremap <C-j> :m .+1<CR>==
+
+" Move the current line down
+nnoremap <C-k> :m .-2<CR>==
+
+" Move selected lines down
+vnoremap <C-j> :m '>+1<CR>gv=gv
+
+" Move selected lines up
+vnoremap <C-k> :m '<-2<CR>gv=gv
+```
+
+- neovim
+
+```lua
+-- Move the current line down
+keymap("n", "<C-j>", ":m .+1<CR>==", { noremap = true, silent = true })
+
+-- Move the current line up
+keymap("n", "<C-k>", ":m .-2<CR>==", { noremap = true, silent = true })
+
+-- Move selected lines down
+keymap("v", "<C-j>", ":m '>+1<CR>gv=gv", { noremap = true, silent = true })
+
+-- Move selected lines up
+keymap("v", "<C-k>", ":m '<-2<CR>gv=gv", { noremap = true, silent = true })
+```
+
