@@ -7,7 +7,7 @@
 - (v) - Visual Mode
 - (x) - Visual Block Mode
 - (t) - Term Mode
-- (c) - Comand Mode
+- (c) - Command Mode
 
 ## General operations
 
@@ -85,7 +85,7 @@
 ## Searching
 
 - `/<pattern>` - search for a pattern
-- `?<pattern>` - search backwaeds
+- `?<pattern>` - search backwards
 - `n` - move to the next match
 - `N` - move to the previous match
 - `*` - search for the word under the cursor
@@ -97,13 +97,13 @@
 - `:%s/<patter>//gc` - delete in the entire file, with confirmation
 - `:%s/<pattern>/<replacement>/gi` - replace in the entire file case insensitive
 **Notes**:
-  If %s is relaced with s in the command above the search and replace take place in the current line.
+  If %s is replaced with s in the command above the search and replace take place in the current line.
 
 ## Visual mode
 
 - `v` - start visual mode
 - `V` - start visual line mode
-- `viw` - select the current word - viw
+- `viw` - select the current word  
 - `ggVG | :%y+` - select the entire buffer
 
 ## Copy and paste
@@ -135,6 +135,15 @@
 - `gcO` (n) toggle comment on the line above
 - `gc`  (x) toggle comment on selected text block
 
+
+## Spelling 
+
+- `]s` (n) next misspelled error
+- `[s` (n) previous misspelled error
+- `z=` (n) show suggestions for misspelled error
+- `zg` (n) add the word under cursor in the dictionary 
+- `zw` (n) remove the word under cursor from the dictionary
+
 ## Next shortcuts to figure out
 - move a line up and down
 - move a block of text up and down
@@ -143,8 +152,8 @@
 ## Sneak plugin
 
 -  `s{char}{char}` (n) - search for {char}{char} with highlight. E.g. sab search for ab
-  - `;` next occurence
-  - `,` previous occurence
+  - `;` next occurrence
+  - `,` previous occurrence
 -    
 -  ; 
 
