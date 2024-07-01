@@ -145,8 +145,8 @@
 - `zw` (n) remove the word under cursor from the dictionary
 
 ## Next shortcuts to figure out
-- move a line up and down
-- move a block of text up and down
+- move a line up and down (see the ./configuration.md on how to map keys to move lines up/down, or duplicate them up/down)
+- move a block of text up and down (same as above)
 
 
 ## Sneak plugin
