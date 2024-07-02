@@ -9,6 +9,10 @@
 - (t) - Term Mode
 - (c) - Command Mode
 
+## Important 
+
+- q: (n) commands history
+
 ## General operations
 
 - `Ctrl + r` (n) redo
