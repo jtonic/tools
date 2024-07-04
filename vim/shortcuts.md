@@ -109,6 +109,7 @@
 - `V` - start visual line mode
 - `viw` - select the current word  
 - `ggVG | :%y+` - select the entire buffer
+- `:enew` - create a new buffer
 
 ## Copy and paste
 
@@ -148,6 +149,13 @@
 - `zg` (n) add the word under cursor in the dictionary 
 - `zw` (n) remove the word under cursor from the dictionary
 
+
+## Lazy-vim
+
+- `Leader /` search for a pattern in root directory
+- `Leader <space>` fuzzy search for a file in the root directory 
+- `H` show/hide hidden files in the file explorer
+
 ## Next shortcuts to figure out
 - move a line up and down (see the ./configuration.md on how to map keys to move lines up/down, or duplicate them up/down)
 - move a block of text up and down (same as above)
@@ -158,10 +166,11 @@
 -  `s{char}{char}` (n) - search for {char}{char} with highlight. E.g. sab search for ab
   - `;` next occurrence
   - `,` previous occurrence
--    
--  ; 
 
 **Note:**
     - To check if clipboard is enabled in vim, run `vim --version | grep clipboard`.
     
     If it returns `-clipboard`, then you need to install a version of vim that has clipboard support.
+
+
+
