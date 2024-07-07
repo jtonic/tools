@@ -82,3 +82,10 @@ keymap("n", "<Leader>bn", ":enew<CR>", opts)
 wk.register({
   ["bn"] = { ":enew<CR>", "New buffer" },
 }, { prefix = "<Leader>" })
+
+-- Copilot keymaps
+keymap("i", "<Tab>", 'copilot#Accept("\\<CR>")', {
+  expr = true,
+  replace_keycodes = false,
+})
+vim.g.copilot_no_tab_map = true
