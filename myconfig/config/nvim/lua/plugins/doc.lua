@@ -1,4 +1,4 @@
-doc.luareturn({
+return {
   "OXY2DEV/markview.nvim",
 
   dependencies = {
@@ -11,4 +11,4 @@ doc.luareturn({
   config = function()
     require("markview").setup()
   end,
-})
+}

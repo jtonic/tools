@@ -1,3 +1,9 @@
 .tmp/
 .DS_Store
 
+## Ignore scala build files
+
+**/target/
+.scala-build/
+.metals/
+.bsp/
