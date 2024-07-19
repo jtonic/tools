@@ -54,6 +54,12 @@
 - `L` - move to the bottom of the screen
 - `zz` - move the cursor to the center of the screen
 
+### Windows Navigation
+
+- `Ctrl + w` (n) - switch to the next Windows
+- `Ctrl + w + hjkl` (n) - move to the window on the left, down, up, right
+- `Ctrl + w + =` (n) - make all windows equal size 
+
 ## Editing
 
 ### Insert
@@ -139,6 +145,21 @@
 - `gco` (n) toggle comment on the line below
 - `gcO` (n) toggle comment on the line above
 - `gc`  (x) toggle comment on selected text block
+- `K` (n) (lsp) Hover
+- `gd` (n) (lsp) Go To Definition
+- `gr` (n) (lsp) Go To References
+
+- `gd`, vim.lsp.buf.definition
+- `K`, vim.lsp.buf.hover
+- `gi`, vim.lsp.buf.implementation
+- `<C-k>`, vim.lsp.buf.signature_help
+- `<space>D`, vim.lsp.buf.type_definition
+- `<space>rn`, vim.lsp.buf.rename
+- `gr`, vim.lsp.buf.references
+- `<space>e`, vim.diagnostic.open_float
+- `[d`, vim.diagnostic.goto_prev
+- `]d`, vim.diagnostic.goto_next
+- `<space>q`, vim.diagnostic.setloclist
 
 
 ## Spelling 

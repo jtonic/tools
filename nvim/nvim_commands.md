@@ -27,3 +27,8 @@
 - `:source %` - reload the current file
 - `source ~/.config/nvim/lua/config/keymaps.lua` - reload the keymaps file
 
+
+## LSP
+
+- for more information run `:h vim.lsp.buf`
+
