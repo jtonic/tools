@@ -32,3 +32,12 @@
 
 - for more information run `:h vim.lsp.buf`
 
+
+## Goodies
+
+- running a lua code with `nvim --headless`
+
+```bash
+nvim --headless -c 'lua print("Hello from Neovim!")' -c 'quit'
+```
+
