@@ -1,6 +1,9 @@
 # Vim commands
 
 
+## [LazyVim shortcuts](https://www.lazyvim.org/keymaps#telescopenvim)
+
+
 ## File system command:
 
 - `:pwd` - show the current directory 

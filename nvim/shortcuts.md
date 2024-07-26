@@ -74,6 +74,10 @@
 - `x` - delete the character under the cursor
 - `dd` - delete the line
 - `ggVGd | :%d` - delete the entire buffer
+#### Test objects
+- `dif` - delete the inner function
+- `daf` - delete the entire function
+- `dip` - delete the inner paragraph
 
 ### Delete without yanking
 
@@ -139,18 +143,18 @@
 - `"+P` - paste the copied text from the system clipboard (before the cursor or line)
 - `"+r` - replace the selected text with the text from the system clipboard
 
-## Code
+## Code (LSP)
 
 - `gcc` (n) toggle comment for the entire current line
 - `gco` (n) toggle comment on the line below
 - `gcO` (n) toggle comment on the line above
 - `gc`  (x) toggle comment on selected text block
+
 - `K` (n) (lsp) Hover
 - `gd` (n) (lsp) Go To Definition
 - `gr` (n) (lsp) Go To References
 
 - `gd`, vim.lsp.buf.definition
-- `K`, vim.lsp.buf.hover
 - `gi`, vim.lsp.buf.implementation
 - `<C-k>`, vim.lsp.buf.signature_help
 - `<space>D`, vim.lsp.buf.type_definition
@@ -160,6 +164,11 @@
 - `[d`, vim.diagnostic.goto_prev
 - `]d`, vim.diagnostic.goto_next
 - `<space>q`, vim.diagnostic.setloclist
+
+- <leader>cs - buffer symbols (trouble)
+
+Notes:
+  - More about trouble and other useful shortcuts can be found at https://www.lazyvim.org/keymaps
 
 
 ## Spelling 
