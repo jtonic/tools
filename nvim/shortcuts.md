@@ -165,11 +165,15 @@
 - `]d`, vim.diagnostic.goto_next
 - `<space>q`, vim.diagnostic.setloclist
 
-- <leader>cs - buffer symbols (trouble)
+- <leader>cs - document symbols (trouble)
 
 Notes:
   - More about trouble and other useful shortcuts can be found at https://www.lazyvim.org/keymaps
 
+
+## Code fold
+
+- `za` (n) toggle fold 
 
 ## Spelling 
 
