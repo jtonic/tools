@@ -53,6 +53,8 @@
 - `H` - move to the top of the screen
 - `L` - move to the bottom of the screen
 - `zz` - move the cursor to the center of the screen
+- `}` - move to the next empty line
+- `{` - move to the previous empty lines
 
 ### Windows Navigation
 
@@ -78,6 +80,7 @@
 - `dif` - delete the inner function
 - `daf` - delete the entire function
 - `dip` - delete the inner paragraph
+- `di(" | ' | ( | { )` - delete the inner text inside the quotes, brackets, or braces})
 
 ### Delete without yanking
 
@@ -110,6 +113,8 @@
 - `:%s/<patter>/<replacement>/gc` - replace in the entire file, with confirmation
 - `:%s/<patter>//gc` - delete in the entire file, with confirmation
 - `:%s/<pattern>/<replacement>/gi` - replace in the entire file case insensitive
+- `ci(" | ' | ( | { )` - delete the inner text inside the quotes, brackets, or braces})
+
 **Notes**:
   If %s is replaced with s in the command above the search and replace take place in the current line.
 
@@ -132,6 +137,7 @@
 - `p` - paste the copied text (after the cursor or line)
 - `P` - paste the copied text (before the cursor or line)
 - `r` - replace the selected text
+- `yi(" | ' | ( | { )` - delete the inner text inside the quotes, brackets, or braces})
 
 ### Copy to system clipboard
 
