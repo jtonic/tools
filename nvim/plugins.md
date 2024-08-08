@@ -2,6 +2,10 @@
 
 - nvim-treesitter
 
+- nvim-treesitter-textobjects
+
+- nvim-treesitter-context
+
 - neo-tree.lua
 
 - telescope.nvim

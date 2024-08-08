@@ -115,6 +115,13 @@
 - `:%s/<pattern>/<replacement>/gi` - replace in the entire file case insensitive
 - `ci(" | ' | ( | { )` - delete the inner text inside the quotes, brackets, or braces})
 
+
+## Selection
+
+- `c-space` - increment selection
+- `backspace` - decrement selection
+
+
 **Notes**:
   If %s is replaced with s in the command above the search and replace take place in the current line.
 
