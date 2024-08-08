@@ -1,5 +1,10 @@
 # Wezterm shortcuts
 
+## Command to find out defined shortcuts
+
+```bash
+wezterm show-keys --lua
+```
 
 ## leader key
 
