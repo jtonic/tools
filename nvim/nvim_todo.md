@@ -3,20 +3,26 @@
 
 ## How to register and apply a macro
 
+See [here](https://medium.com/gitconnected/learn-neo-vim-macros-27e24d10167a)
+
+- [ ] nvim-test
+
+- [ ] tmux & nvim (run tests in a tmux pane)
+
 ## Shortcuts:
 
 ### tmux
 
-- [ ] split horizontally
-- [ ] sprint vertically
-- navigate betwween panes
-- increase the size of a pane, tab
-- close a pane (tab)
+- [x] split horizontally
+- [x] sprint vertically
+- [x] navigate betwween panes
+- [x] increase the size of a pane, tab
+- [x] close a pane (tab)
 
 
-- Surround;
+## Surround
 
-- [ ] surround a selection (v)
+- [x] surround a selection (v)
 
 
 - [ ] yank to copy in the system clipboard
@@ -24,14 +30,15 @@
 - [ ] install **oil.nvim** or **mini.system**, and use it
 
 - [ ] install Mason, nvim-lspconfig, mason-lsp
-  - [ ] validate for go
+  - [x] validate for go
   - [ ] validate for rust
   - [ ] validate for oCaml
   - [ ] validate for Haskell
   - [ ] validate for Java
 
 - [ ] install and configure dap
-  - [ ] validate for go
+  - [x] validate for go
+  - [x] validate for Scala
   - [ ] validate for rust
   - [ ] validate for oCaml
   - [ ] validate for Haskell
@@ -39,15 +46,16 @@
 
 - [ ] install and configure snippets and cmp (completion)
   - [ ] validate for go
+  - [ ] validate for Scala
+  - [ ] validate for Java
   - [ ] validate for rust
   - [ ] validate for oCaml
   - [ ] validate for Haskell
-  - [ ] validate for Java
 
-- [ ] install and configure nvim with tmux:
+- [x] install and configure nvim with tmux:
 
 
-- [ ] File systems commands (shortcuts) 
+- [x] File systems commands (shortcuts) 
   - `:pwd` - show the current directory
   - `:enew` - create a new buffer
   - `:write <filename>` - save the current buffer
@@ -61,7 +69,8 @@
     - `a` - create a new file / directory
     - `A` - create a new file / directory 
     - `R` - refresh the tree
-- [ ] git plugins (typecraft tutorials)
+
+- [x] git plugins (typecraft tutorials)
 
 - [ ] nvim-test
 
