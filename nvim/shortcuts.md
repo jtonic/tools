@@ -125,6 +125,16 @@
 **Notes**:
   If %s is replaced with s in the command above the search and replace take place in the current line.
 
+## Surround
+
+- `ysiw"` - surround the word with double quotes
+- `ys$"` - surround the text from the cursor to the end of the line with double quotes
+- `cs"'` - change the surrounding double quotes to single quotes
+- `ds"` - delete the surrounding double quotes
+- `S"` - (v) - surround a selection with double quotes
+
+- surround a selection with double quotes: `s"` (v)
+
 ## Visual mode
 
 - `v` - start visual mode

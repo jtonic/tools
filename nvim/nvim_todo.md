@@ -1,5 +1,24 @@
 # TODO
 
+
+## How to register and apply a macro
+
+## Shortcuts:
+
+### tmux
+
+- [ ] split horizontally
+- [ ] sprint vertically
+- navigate betwween panes
+- increase the size of a pane, tab
+- close a pane (tab)
+
+
+- Surround;
+
+- [ ] surround a selection (v)
+
+
 - [ ] yank to copy in the system clipboard
 - [ ] shortcuts to navigate in commands history
 - [ ] install **oil.nvim** or **mini.system**, and use it
